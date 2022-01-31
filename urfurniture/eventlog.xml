@@ -1,0 +1,673 @@
+<Events><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-23T08:01:06Z"/><EventRecordID>708040250</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+EventId: 35
+
+No XML encryptor configured. Key {9d0839b5-7fc1-474a-afbc-d587e6c52fdc} may be persisted to storage in unencrypted form.
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-23T08:01:06Z"/><EventRecordID>708040671</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 7408.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-23T08:33:44Z"/><EventRecordID>709998750</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/URFURNITUREAPI' has shutdown.</Data><Data>Process Id: 7408.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-23T08:45:59Z"/><EventRecordID>710733812</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 1760.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-23T14:46:25Z"/><EventRecordID>732359859</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.EntityFrameworkCore.Query
+EventId: 10102
+RequestId: 80000771-0000-ec00-b63f-84710c7967bb
+RequestPath: /api/ManageUser/users
+SpanId: |e08a2dcb-49b1ae39a2c33679.
+TraceId: e08a2dcb-49b1ae39a2c33679
+ParentId: 
+ActionId: 21733e97-af04-44f1-81b5-bf48f78520d8
+ActionName: urfurniture.Controllers.ManageUserController.GetUsers (urfurniture)
+
+The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-23T14:46:25Z"/><EventRecordID>732359890</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.EntityFrameworkCore.Query
+EventId: 10102
+RequestId: 80000771-0000-ec00-b63f-84710c7967bb
+RequestPath: /api/ManageUser/users
+SpanId: |e08a2dcb-49b1ae39a2c33679.
+TraceId: e08a2dcb-49b1ae39a2c33679
+ParentId: 
+ActionId: 21733e97-af04-44f1-81b5-bf48f78520d8
+ActionName: urfurniture.Controllers.ManageUserController.GetUsers (urfurniture)
+
+The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T09:09:54Z"/><EventRecordID>798568203</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 1760.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T09:09:58Z"/><EventRecordID>798571656</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/URFURNITUREAPI' has shutdown.</Data><Data>Process Id: 1760.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T09:11:36Z"/><EventRecordID>798670125</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 2364.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T09:26:25Z"/><EventRecordID>799559000</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware
+EventId: 1
+RequestId: 8000b058-0000-e600-b63f-84710c7967bb
+RequestPath: /api/ManageAccount/UserRegister
+SpanId: |922a3347-4a765272f0669d3b.
+TraceId: 922a3347-4a765272f0669d3b
+ParentId: 
+
+An unhandled exception has occurred while executing the request.
+
+Exception: 
+MailKit.Security.AuthenticationException: 534: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbt
+5.7.14 kSowfdtFRkSnhCuZH4s1gbqqxP1z38WPtQ3OUJgwcAJbE3oN4nbHXHD7U-sMfOjT8EJzw
+5.7.14 -vHUI5aT1Rh2n8ktVWTYBC6ZnLx_DPw3FJFR0NtgcwVP2ML9ViLQu9gKeOSgTtn-&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 e15sm404145otk.64 - gsmtp
+ ---&gt; MailKit.Net.Smtp.SmtpCommandException: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbt
+5.7.14 kSowfdtFRkSnhCuZH4s1gbqqxP1z38WPtQ3OUJgwcAJbE3oN4nbHXHD7U-sMfOjT8EJzw
+5.7.14 -vHUI5aT1Rh2n8ktVWTYBC6ZnLx_DPw3FJFR0NtgcwVP2ML9ViLQu9gKeOSgTtn-&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 e15sm404145otk.64 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(Encoding encoding, String userName, String password, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at urfurniture.DAL.Implementation.MailService.SendConfirmationEmailAsync(TblUser user, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\MailService .cs:line 63
+   at urfurniture.DAL.Implementation.ManageAccountService.RegisterAsync(TblUser entity, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\ManageAccountService.cs:line 111
+   at urfurniture.Controllers.ManageAccountController.UserRegister(UserModel request) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture\Controllers\ManageAccountController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeNextResourceFilter&gt;g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.&lt;Invoke&gt;g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T09:47:02Z"/><EventRecordID>800795843</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 2364.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T09:47:04Z"/><EventRecordID>800797781</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/URFURNITUREAPI' has shutdown.</Data><Data>Process Id: 2364.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T09:49:13Z"/><EventRecordID>800926781</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 4912.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T10:40:39Z"/><EventRecordID>804012531</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware
+EventId: 1
+RequestId: 800045bf-0000-e700-b63f-84710c7967bb
+RequestPath: /api/ManageAccount/UserRegister
+SpanId: |3c5b589b-42ca4e73d704fee3.
+TraceId: 3c5b589b-42ca4e73d704fee3
+ParentId: 
+
+An unhandled exception has occurred while executing the request.
+
+Exception: 
+System.IO.IOException: The specified path is invalid. : 'D:\home\site\wwwroot\https:\urfurnitureapi.azurewebsites.net\Template\EmailConfirmation.html'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at urfurniture.DAL.Implementation.MailService.SendConfirmationEmailAsync(TblUser user, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\MailService .cs:line 44
+   at urfurniture.DAL.Implementation.ManageAccountService.RegisterAsync(TblUser entity, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\ManageAccountService.cs:line 111
+   at urfurniture.Controllers.ManageAccountController.UserRegister(UserModel request) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture\Controllers\ManageAccountController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeNextResourceFilter&gt;g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.&lt;Invoke&gt;g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T10:45:23Z"/><EventRecordID>804296796</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 4912.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T10:45:24Z"/><EventRecordID>804298453</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/URFURNITUREAPI' has shutdown.</Data><Data>Process Id: 4912.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T10:46:05Z"/><EventRecordID>804338828</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 2308.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T10:46:34Z"/><EventRecordID>804367890</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware
+EventId: 1
+RequestId: 80001062-0000-e900-b63f-84710c7967bb
+RequestPath: /api/ManageAccount/UserRegister
+SpanId: |16357a4e-4738fad150eb519e.
+TraceId: 16357a4e-4738fad150eb519e
+ParentId: 
+
+An unhandled exception has occurred while executing the request.
+
+Exception: 
+MailKit.Security.AuthenticationException: 534: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbv
+5.7.14 dpw7XhI3DWsUPFkqdc19ErZZaO_evhKW90bSb9Qw5sn2bG4mbyQY1k_HN_WfsGn_mC8GC
+5.7.14 kfJlZyJVzQhu9Q3fQK6MxHR1PGv23_TNUnMlCFkxUURptrQUBEa5IrHkOGWoILnN&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 d1sm453768oop.0 - gsmtp
+ ---&gt; MailKit.Net.Smtp.SmtpCommandException: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbv
+5.7.14 dpw7XhI3DWsUPFkqdc19ErZZaO_evhKW90bSb9Qw5sn2bG4mbyQY1k_HN_WfsGn_mC8GC
+5.7.14 kfJlZyJVzQhu9Q3fQK6MxHR1PGv23_TNUnMlCFkxUURptrQUBEa5IrHkOGWoILnN&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 d1sm453768oop.0 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(Encoding encoding, String userName, String password, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at urfurniture.DAL.Implementation.MailService.SendConfirmationEmailAsync(TblUser user, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\MailService .cs:line 61
+   at urfurniture.DAL.Implementation.ManageAccountService.RegisterAsync(TblUser entity, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\ManageAccountService.cs:line 111
+   at urfurniture.Controllers.ManageAccountController.UserRegister(UserModel request) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture\Controllers\ManageAccountController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeNextResourceFilter&gt;g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.&lt;Invoke&gt;g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T10:56:24Z"/><EventRecordID>804958234</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware
+EventId: 1
+RequestId: 80002c80-0000-eb00-b63f-84710c7967bb
+RequestPath: /api/ManageAccount/UserRegister
+SpanId: |16357a4f-4738fad150eb519e.
+TraceId: 16357a4f-4738fad150eb519e
+ParentId: 
+
+An unhandled exception has occurred while executing the request.
+
+Exception: 
+MailKit.Security.AuthenticationException: 534: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbt
+5.7.14 ovHQIaQpSpJQ4wHPDfvhV8PiHVYHYK_xOBPBDM1mmtYuT012h9-SQ-VvS3DDQ8thKqf9U
+5.7.14 _UT_xbo-LMeX_MAHaKQGJ08xZb3GgNjXoAcanFqr9cnqaYp-i7rwnNo2QaRUeY7w&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 z17sm442706ote.77 - gsmtp
+ ---&gt; MailKit.Net.Smtp.SmtpCommandException: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbt
+5.7.14 ovHQIaQpSpJQ4wHPDfvhV8PiHVYHYK_xOBPBDM1mmtYuT012h9-SQ-VvS3DDQ8thKqf9U
+5.7.14 _UT_xbo-LMeX_MAHaKQGJ08xZb3GgNjXoAcanFqr9cnqaYp-i7rwnNo2QaRUeY7w&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 z17sm442706ote.77 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(Encoding encoding, String userName, String password, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at urfurniture.DAL.Implementation.MailService.SendConfirmationEmailAsync(TblUser user, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\MailService .cs:line 61
+   at urfurniture.DAL.Implementation.ManageAccountService.RegisterAsync(TblUser entity, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\ManageAccountService.cs:line 111
+   at urfurniture.Controllers.ManageAccountController.UserRegister(UserModel request) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture\Controllers\ManageAccountController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeNextResourceFilter&gt;g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.&lt;Invoke&gt;g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T11:24:33Z"/><EventRecordID>806646906</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 2308.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T11:24:34Z"/><EventRecordID>806648187</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/URFURNITUREAPI' has shutdown.</Data><Data>Process Id: 2308.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T11:26:13Z"/><EventRecordID>806747125</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 1144.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T11:26:22Z"/><EventRecordID>806755796</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware
+EventId: 1
+RequestId: 80008aaa-0000-f100-b63f-84710c7967bb
+RequestPath: /api/ManageAccount/UserRegister
+SpanId: |693fe0d6-403a4aa6eff28a28.
+TraceId: 693fe0d6-403a4aa6eff28a28
+ParentId: 
+
+An unhandled exception has occurred while executing the request.
+
+Exception: 
+MailKit.Security.AuthenticationException: 534: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbt
+5.7.14 qJI1QdAt3pi7gYOsQx-tIzQcUJHpf8m3HvlNjMo2z05yQWradjakSW2p4BrLdadsJnXV_
+5.7.14 lUGk3V7MRBwSum5zvPgbEZY4Xwyp6Uq4q3u4zFowiSVPznIQVVn1SAVUNHMo7oQU&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 g13sm481006otq.3 - gsmtp
+ ---&gt; MailKit.Net.Smtp.SmtpCommandException: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbt
+5.7.14 qJI1QdAt3pi7gYOsQx-tIzQcUJHpf8m3HvlNjMo2z05yQWradjakSW2p4BrLdadsJnXV_
+5.7.14 lUGk3V7MRBwSum5zvPgbEZY4Xwyp6Uq4q3u4zFowiSVPznIQVVn1SAVUNHMo7oQU&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 g13sm481006otq.3 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(Encoding encoding, String userName, String password, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at urfurniture.DAL.Implementation.MailService.SendConfirmationEmailAsync(TblUser user, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\MailService .cs:line 62
+   at urfurniture.DAL.Implementation.ManageAccountService.RegisterAsync(TblUser entity, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\ManageAccountService.cs:line 111
+   at urfurniture.Controllers.ManageAccountController.UserRegister(UserModel request) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture\Controllers\ManageAccountController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeNextResourceFilter&gt;g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.&lt;Invoke&gt;g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T14:20:45Z"/><EventRecordID>817218921</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 1144.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T14:20:47Z"/><EventRecordID>817220656</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/URFURNITUREAPI' has shutdown.</Data><Data>Process Id: 1144.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T14:23:51Z"/><EventRecordID>817404562</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 7356.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T14:24:51Z"/><EventRecordID>817465234</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware
+EventId: 1
+RequestId: 800045f5-0000-e700-b63f-84710c7967bb
+RequestPath: /api/ManageAccount/UserRegister
+SpanId: |4fb850d3-46d4406f40d26d51.
+TraceId: 4fb850d3-46d4406f40d26d51
+ParentId: 
+
+An unhandled exception has occurred while executing the request.
+
+Exception: 
+MailKit.Security.AuthenticationException: 534: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbt
+5.7.14 MoSQ--l6jYNSUnIk8BwxYWyr2mHlhDxNCQVZyPydOBTIqbH3dY3Q9bcgcWZH4WC2djYTN
+5.7.14 E2PsiqgLBss5efejIVeMNCY50MQQ77iRe5CZq1oGAgbQs0NqP4FNr16DGGBrLgrn&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 o197sm560392ooo.44 - gsmtp
+ ---&gt; MailKit.Net.Smtp.SmtpCommandException: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbt
+5.7.14 MoSQ--l6jYNSUnIk8BwxYWyr2mHlhDxNCQVZyPydOBTIqbH3dY3Q9bcgcWZH4WC2djYTN
+5.7.14 E2PsiqgLBss5efejIVeMNCY50MQQ77iRe5CZq1oGAgbQs0NqP4FNr16DGGBrLgrn&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 o197sm560392ooo.44 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(Encoding encoding, String userName, String password, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at urfurniture.DAL.Implementation.MailService.SendConfirmationEmailAsync(TblUser user, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\MailService .cs:line 62
+   at urfurniture.DAL.Implementation.ManageAccountService.RegisterAsync(TblUser entity, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\ManageAccountService.cs:line 111
+   at urfurniture.Controllers.ManageAccountController.UserRegister(UserModel request) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture\Controllers\ManageAccountController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeNextResourceFilter&gt;g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.&lt;Invoke&gt;g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T14:38:31Z"/><EventRecordID>818285437</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 7356.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T14:38:33Z"/><EventRecordID>818287328</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/URFURNITUREAPI' has shutdown.</Data><Data>Process Id: 7356.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T14:39:27Z"/><EventRecordID>818341265</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 5204.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T14:40:36Z"/><EventRecordID>818409718</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware
+EventId: 1
+RequestId: 80008af9-0000-f100-b63f-84710c7967bb
+RequestPath: /api/ManageAccount/UserRegister
+SpanId: |ce4dfe09-446f2481384a4c7a.
+TraceId: ce4dfe09-446f2481384a4c7a
+ParentId: 
+
+An unhandled exception has occurred while executing the request.
+
+Exception: 
+MimeKit.ParseException: Invalid domain token at offset 9
+   at MimeKit.Utils.ParseUtils.TryParseDotAtom(Byte[] text, Int32&amp; index, Int32 endIndex, Byte[] sentinels, Boolean throwOnError, String tokenType, String&amp; dotatom)
+   at MimeKit.Utils.ParseUtils.TryParseDomain(Byte[] text, Int32&amp; index, Int32 endIndex, Byte[] sentinels, Boolean throwOnError, String&amp; domain)
+   at MimeKit.InternetAddress.TryParseAddrspec(Byte[] text, Int32&amp; index, Int32 endIndex, Byte[] sentinels, Boolean throwOnError, String&amp; addrspec, Int32&amp; at)
+   at MimeKit.InternetAddress.TryParse(ParserOptions options, Byte[] text, Int32&amp; index, Int32 endIndex, Int32 groupDepth, AddressParserFlags flags, InternetAddress&amp; address)
+   at MimeKit.MailboxAddress.TryParse(ParserOptions options, Byte[] text, Int32&amp; index, Int32 endIndex, Boolean throwOnError, MailboxAddress&amp; mailbox)
+   at MimeKit.MailboxAddress.Parse(ParserOptions options, String text)
+   at MimeKit.MailboxAddress.Parse(String text)
+   at urfurniture.DAL.Implementation.MailService.SendConfirmationEmailAsync(TblUser user, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\MailService .cs:line 53
+   at urfurniture.DAL.Implementation.ManageAccountService.RegisterAsync(TblUser entity, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\ManageAccountService.cs:line 111
+   at urfurniture.Controllers.ManageAccountController.UserRegister(UserModel request) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture\Controllers\ManageAccountController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeNextResourceFilter&gt;g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.&lt;Invoke&gt;g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:13:58Z"/><EventRecordID>820411656</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 5204.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:14:00Z"/><EventRecordID>820413593</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/URFURNITUREAPI' has shutdown.</Data><Data>Process Id: 5204.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:18:53Z"/><EventRecordID>820706953</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 8288.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:19:12Z"/><EventRecordID>820726265</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.EntityFrameworkCore.Database.Connection
+EventId: 20004
+RequestId: 80008b03-0000-f100-b63f-84710c7967bb
+RequestPath: /api/ManageAccount/UserRegister
+SpanId: |37fdd72c-49b4ca987c763ec1.
+TraceId: 37fdd72c-49b4ca987c763ec1
+ParentId: 
+ActionId: 8f8377ac-74b3-4b05-b443-b4ee44ab8000
+ActionName: urfurniture.Controllers.ManageAccountController.UserRegister (urfurniture)
+
+An error occurred using the connection to database 'urfurniture' on server 'C2\SQLEXPRESS'.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:19:12Z"/><EventRecordID>820726421</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.EntityFrameworkCore.Query
+EventId: 10100
+RequestId: 80008b03-0000-f100-b63f-84710c7967bb
+RequestPath: /api/ManageAccount/UserRegister
+SpanId: |37fdd72c-49b4ca987c763ec1.
+TraceId: 37fdd72c-49b4ca987c763ec1
+ParentId: 
+ActionId: 8f8377ac-74b3-4b05-b443-b4ee44ab8000
+ActionName: urfurniture.Controllers.ManageAccountController.UserRegister (urfurniture)
+
+An exception occurred while iterating over the results of a query for context type 'urfurniture.DAL.Data.urfurnitureContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+
+Exception: 
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:19:13Z"/><EventRecordID>820726562</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware
+EventId: 1
+RequestId: 80008b03-0000-f100-b63f-84710c7967bb
+RequestPath: /api/ManageAccount/UserRegister
+SpanId: |37fdd72c-49b4ca987c763ec1.
+TraceId: 37fdd72c-49b4ca987c763ec1
+ParentId: 
+
+An unhandled exception has occurred while executing the request.
+
+Exception: 
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at urfurniture.DAL.Implementation.ManageAccountService.RegisterAsync(TblUser entity, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\ManageAccountService.cs:line 72
+   at urfurniture.Controllers.ManageAccountController.UserRegister(UserModel request) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture\Controllers\ManageAccountController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeNextResourceFilter&gt;g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.&lt;Invoke&gt;g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:21:19Z"/><EventRecordID>820852765</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.EntityFrameworkCore.Database.Connection
+EventId: 20004
+RequestId: 80004620-0000-e700-b63f-84710c7967bb
+RequestPath: /api/ManageProduct/GetProduct
+SpanId: |37fdd72d-49b4ca987c763ec1.
+TraceId: 37fdd72d-49b4ca987c763ec1
+ParentId: 
+ActionId: a8a0cfe3-5716-4c62-a99f-500e680486a5
+ActionName: urfurniture.Controllers.ManageProductController.GetProduct (urfurniture)
+
+An error occurred using the connection to database 'urfurniture' on server 'C2\SQLEXPRESS'.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:21:19Z"/><EventRecordID>820852859</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.EntityFrameworkCore.Query
+EventId: 10100
+RequestId: 80004620-0000-e700-b63f-84710c7967bb
+RequestPath: /api/ManageProduct/GetProduct
+SpanId: |37fdd72d-49b4ca987c763ec1.
+TraceId: 37fdd72d-49b4ca987c763ec1
+ParentId: 
+ActionId: a8a0cfe3-5716-4c62-a99f-500e680486a5
+ActionName: urfurniture.Controllers.ManageProductController.GetProduct (urfurniture)
+
+An exception occurred while iterating over the results of a query for context type 'urfurniture.DAL.Data.urfurnitureContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+
+Exception: 
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:21:19Z"/><EventRecordID>820852906</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware
+EventId: 1
+RequestId: 80004620-0000-e700-b63f-84710c7967bb
+RequestPath: /api/ManageProduct/GetProduct
+SpanId: |37fdd72d-49b4ca987c763ec1.
+TraceId: 37fdd72d-49b4ca987c763ec1
+ParentId: 
+
+An unhandled exception has occurred while executing the request.
+
+Exception: 
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at urfurniture.DAL.Implementation.ManageProductService.GetProduct(Int32 PageNumber, Int32 PageSize, String path) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\ManageProductService.cs:line 53
+   at urfurniture.Controllers.ManageProductController.GetProduct(Int32 PageNumber, Int32 PageSize) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture\Controllers\ManageProductController.cs:line 159
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeNextResourceFilter&gt;g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.&lt;Invoke&gt;g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:22:29Z"/><EventRecordID>820923312</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 8288.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:22:30Z"/><EventRecordID>820924406</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/URFURNITUREAPI' has shutdown.</Data><Data>Process Id: 8288.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:27:19Z"/><EventRecordID>821212812</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Application 'D:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 2188.</Data><Data>File Version: 13.1.21048.13. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: cf2c5c9c6dca430b97aa96429b84d0da07eb77f1</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:27:37Z"/><EventRecordID>821230953</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware
+EventId: 1
+RequestId: 800010ab-0000-e900-b63f-84710c7967bb
+RequestPath: /api/ManageAccount/UserRegister
+SpanId: |1f8470a8-4c4111840438f158.
+TraceId: 1f8470a8-4c4111840438f158
+ParentId: 
+
+An unhandled exception has occurred while executing the request.
+
+Exception: 
+MailKit.Security.AuthenticationException: 534: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbv
+5.7.14 B1Sb3vCJcWOO5SVwCCs0oMmxWHjc3akAqayVjuHI52cIgR6N507Pj6ws6jkKT1mU2z0AQ
+5.7.14 YrAZfY0WCEVNIoD2t5BzK111kOi84V2Ya9Jr7p3ehfNw9G_hx2vb7AuybIYriCWa&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 n10sm343196otj.36 - gsmtp
+ ---&gt; MailKit.Net.Smtp.SmtpCommandException: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbv
+5.7.14 B1Sb3vCJcWOO5SVwCCs0oMmxWHjc3akAqayVjuHI52cIgR6N507Pj6ws6jkKT1mU2z0AQ
+5.7.14 YrAZfY0WCEVNIoD2t5BzK111kOi84V2Ya9Jr7p3ehfNw9G_hx2vb7AuybIYriCWa&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 n10sm343196otj.36 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(Encoding encoding, String userName, String password, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at urfurniture.DAL.Implementation.MailService.SendConfirmationEmailAsync(TblUser user, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\MailService .cs:line 66
+   at urfurniture.DAL.Implementation.ManageAccountService.RegisterAsync(TblUser entity, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\ManageAccountService.cs:line 111
+   at urfurniture.Controllers.ManageAccountController.UserRegister(UserModel request) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture\Controllers\ManageAccountController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeNextResourceFilter&gt;g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.&lt;Invoke&gt;g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2021-03-24T15:34:01Z"/><EventRecordID>821615156</EventRecordID><Channel>Application</Channel><Computer>RD0003FF2B45F5</Computer><Security/></System><EventData><Data>Category: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware
+EventId: 1
+RequestId: 80007e45-0000-fe00-b63f-84710c7967bb
+RequestPath: /api/ManageAccount/UserRegister
+SpanId: |1f8470ad-4c4111840438f158.
+TraceId: 1f8470ad-4c4111840438f158
+ParentId: 
+
+An unhandled exception has occurred while executing the request.
+
+Exception: 
+MailKit.Security.AuthenticationException: 534: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbs
+5.7.14 kausI90QnGWQITvZr7ypp1hsZ8ivo-xC20gpNC0AMoSJwOwCwaAkKvIWzwBLdR9tENc17
+5.7.14 JVmVWq4PXjJEufBwF4IWQbt4kK2c5S3JVpxf5b7IRQrvPdErSGZAyzU7330OfSul&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 64sm589720oob.12 - gsmtp
+ ---&gt; MailKit.Net.Smtp.SmtpCommandException: 5.7.14 &lt;https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;plt=AKgnsbs
+5.7.14 kausI90QnGWQITvZr7ypp1hsZ8ivo-xC20gpNC0AMoSJwOwCwaAkKvIWzwBLdR9tENc17
+5.7.14 JVmVWq4PXjJEufBwF4IWQbt4kK2c5S3JVpxf5b7IRQrvPdErSGZAyzU7330OfSul&gt;
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 64sm589720oob.12 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(Encoding encoding, String userName, String password, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at urfurniture.DAL.Implementation.MailService.SendConfirmationEmailAsync(TblUser user, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\MailService .cs:line 66
+   at urfurniture.DAL.Implementation.ManageAccountService.RegisterAsync(TblUser entity, String filepath) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\Implementation\ManageAccountService.cs:line 111
+   at urfurniture.Controllers.ManageAccountController.UserRegister(UserModel request) in D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture\Controllers\ManageAccountController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeNextResourceFilter&gt;g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.&lt;Invoke&gt;g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+</Data></EventData></Event></Events>

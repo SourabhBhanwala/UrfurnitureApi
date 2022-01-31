@@ -1,0 +1,15 @@
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\bin\Release\netcoreapp3.1\urfurniture.DAL.deps.json
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\bin\Release\netcoreapp3.1\urfurniture.DAL.runtimeconfig.json
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\bin\Release\netcoreapp3.1\urfurniture.DAL.runtimeconfig.dev.json
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\bin\Release\netcoreapp3.1\urfurniture.DAL.dll
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\bin\Release\netcoreapp3.1\urfurniture.DAL.pdb
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\bin\Release\netcoreapp3.1\urfurniture.Models.dll
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\bin\Release\netcoreapp3.1\urfurniture.Models.pdb
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\obj\Release\netcoreapp3.1\urfurniture.DAL.csprojAssemblyReference.cache
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\obj\Release\netcoreapp3.1\urfurniture.DAL.AssemblyInfoInputs.cache
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\obj\Release\netcoreapp3.1\urfurniture.DAL.AssemblyInfo.cs
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\obj\Release\netcoreapp3.1\urfurniture.DAL.csproj.CoreCompileInputs.cache
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\obj\Release\netcoreapp3.1\urfurniture.DAL.csproj.CopyComplete
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\obj\Release\netcoreapp3.1\urfurniture.DAL.dll
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\obj\Release\netcoreapp3.1\urfurniture.DAL.pdb
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.DAL\obj\Release\netcoreapp3.1\urfurniture.DAL.genruntimeconfig.cache

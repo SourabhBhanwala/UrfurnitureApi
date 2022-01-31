@@ -1,0 +1,18 @@
+D:\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\bin\Debug\netcoreapp3.1\urfurniture.Models.deps.json
+D:\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\bin\Debug\netcoreapp3.1\urfurniture.Models.dll
+D:\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\bin\Debug\netcoreapp3.1\urfurniture.Models.pdb
+D:\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\obj\Debug\netcoreapp3.1\urfurniture.Models.csprojAssemblyReference.cache
+D:\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\obj\Debug\netcoreapp3.1\urfurniture.Models.AssemblyInfoInputs.cache
+D:\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\obj\Debug\netcoreapp3.1\urfurniture.Models.AssemblyInfo.cs
+D:\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\obj\Debug\netcoreapp3.1\urfurniture.Models.csproj.CoreCompileInputs.cache
+D:\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\obj\Debug\netcoreapp3.1\urfurniture.Models.dll
+D:\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\obj\Debug\netcoreapp3.1\urfurniture.Models.pdb
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\bin\Debug\netcoreapp3.1\urfurniture.Models.deps.json
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\bin\Debug\netcoreapp3.1\urfurniture.Models.dll
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\bin\Debug\netcoreapp3.1\urfurniture.Models.pdb
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\obj\Debug\netcoreapp3.1\urfurniture.Models.csprojAssemblyReference.cache
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\obj\Debug\netcoreapp3.1\urfurniture.Models.AssemblyInfoInputs.cache
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\obj\Debug\netcoreapp3.1\urfurniture.Models.AssemblyInfo.cs
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\obj\Debug\netcoreapp3.1\urfurniture.Models.csproj.CoreCompileInputs.cache
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\obj\Debug\netcoreapp3.1\urfurniture.Models.dll
+D:\UR Furniture Project\UrFurnitureAPI\Working\UrFurniture\urfurniture.Models\obj\Debug\netcoreapp3.1\urfurniture.Models.pdb

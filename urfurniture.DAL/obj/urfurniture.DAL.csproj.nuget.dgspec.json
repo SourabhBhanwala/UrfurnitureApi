@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\UR Furniture Project\\UrFurnitureAPI\\Working\\UrFurniture\\urfurniture.DAL\\urfurniture.DAL.csproj": {}
+  },
+  "projects": {
+    "D:\\UR Furniture Project\\UrFurnitureAPI\\Working\\UrFurniture\\urfurniture.DAL\\urfurniture.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UR Furniture Project\\UrFurnitureAPI\\Working\\UrFurniture\\urfurniture.DAL\\urfurniture.DAL.csproj",
+        "projectName": "urfurniture.DAL",
+        "projectPath": "D:\\UR Furniture Project\\UrFurnitureAPI\\Working\\UrFurniture\\urfurniture.DAL\\urfurniture.DAL.csproj",
+        "packagesPath": "C:\\Users\\91701\\.nuget\\packages\\",
+        "outputPath": "D:\\UR Furniture Project\\UrFurnitureAPI\\Working\\UrFurniture\\urfurniture.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\91701\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\UR Furniture Project\\UrFurnitureAPI\\Working\\UrFurniture\\urfurniture.Models\\urfurniture.Models.csproj": {
+                "projectPath": "D:\\UR Furniture Project\\UrFurnitureAPI\\Working\\UrFurniture\\urfurniture.Models\\urfurniture.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.6, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.32.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UR Furniture Project\\UrFurnitureAPI\\Working\\UrFurniture\\urfurniture.Models\\urfurniture.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UR Furniture Project\\UrFurnitureAPI\\Working\\UrFurniture\\urfurniture.Models\\urfurniture.Models.csproj",
+        "projectName": "urfurniture.Models",
+        "projectPath": "D:\\UR Furniture Project\\UrFurnitureAPI\\Working\\UrFurniture\\urfurniture.Models\\urfurniture.Models.csproj",
+        "packagesPath": "C:\\Users\\91701\\.nuget\\packages\\",
+        "outputPath": "D:\\UR Furniture Project\\UrFurnitureAPI\\Working\\UrFurniture\\urfurniture.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\91701\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
